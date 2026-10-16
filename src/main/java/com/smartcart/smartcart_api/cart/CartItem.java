@@ -61,6 +61,24 @@ public class CartItem {
     public UUID getId() {
         return id;
     }
+    public UUID getUserId() {
+        return userId;
+    }
+    public Product getProduct() {
+        return product;
+    }
+    public Integer getQuantity() {
+        return quantity;
+    }
+    public Instant getCreatedAt() {
+        return createdAt;
+    }   
+    public Instant getUpdatedAt() {
+        return updatedAt;
+    }   
 
+    public void setQuantity(Integer quantity) {
+        this.quantity = quantity;
+    }
     
 }
